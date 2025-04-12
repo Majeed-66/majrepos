@@ -4,3 +4,30 @@ Mohammad Majeed
 Now Time: 05:57 pm
 I am happy, now....
 Today is Saturday. Time: 12:15 pm
+
+---   Commands   ---
+C:\majrepos>
+git add hello.txt
+
+C:\majrepos>git push
+Everything up-to-date
+
+C:\majrepos>
+git commit -m "Resolved merge conflict in hello.txt"
+
+[main df42585] Resolved merge conflict in hello.txt
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\majrepos>
+git push --set-upstream origin main
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 321 bytes | 321.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Majeed-66/majrepos.git
+   bb1098d..df42585  main -> main
+branch 'main' set up to track 'origin/main'.
